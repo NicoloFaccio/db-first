@@ -8,8 +8,94 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
 
 </head>
-<body>
-
+<body class="p-5">
+    <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">ID</th>
+            <th scope="col">Marchio</th>
+            <th scope="col">Tipologia auto</th>
+            <th scope="col">Modello</th>
+            <th scope="col">Tipologia carburante</th>
+            <th scope="col">Tipo di cambio</th>
+            <th scope="col">Colore Auto</th>
+            <th scope="col">Targa</th>
+            <th scope="col">Potenza kilowat</th>
+            <th scope="col">N° Ruote</th>
+            <th scope="col">N° Portiere</th>
+            <th scope="col">Larghezza</th>
+            <th scope="col">Lunghezza</th>
+            <th scope="col">Peso</th>
+            <th scope="col">Anno di fabbricazione</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+                Int <br>
+                Aut Incr <br>
+                Not Null <br>
+                Unique <br>
+                Primary Key
+            </td>
+            <td scope="col">
+                Varchar(50) <br> 
+                Not null
+            </td>
+            <td scope="col">
+                Varchar(50) <br> 
+                Not null
+            </td>
+            <td scope="col">
+                Varchar(50) <br> 
+                Not null
+            </td>
+            <td scope="col">
+                Varchar(50) <br> 
+                Not null
+            </td>
+            <td scope="col">
+                Varchar(50) <br> 
+                Not null
+            </td>
+            <td scope="col">
+                Varchar(50) <br> 
+                Not null
+            </td>
+            <td scope="col">
+                Varchar(6) <br> 
+                Not null
+            </td>
+            <td scope="col">
+                Varchar(50) <br> 
+                Not null
+            </td>
+            <td scope="col">
+                Tiny Int
+                Not Null
+            </td>
+            <td scope="col">
+                Tiny Int
+                Not Null
+            </td>
+            <td scope="col">
+                Varchar(50) <br> 
+                Not null
+            </td>
+            <td scope="col">
+                Varchar(50) <br> 
+                Not null
+            </td>
+            <td scope="col">
+                Varchar(50) <br> 
+                Not null
+            </td>
+            <td scope="col">
+                Datetime
+            </td>
+          </tr>
+        </tbody>
+    </table>
 
     <!-- BOOTSTRAP'S JAVASCRIPT -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
